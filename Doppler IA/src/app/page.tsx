@@ -121,6 +121,8 @@ export default function LoginPage() {
 
         <div style={styles.footer}>
           <span>Clear IT Pre-Sales Assistant v1.0</span>
+          <span style={{ margin: "0 10px", color: "#6b7280" }}>|</span>
+          <a href="/sobre" style={{ color: "var(--accent-cyan)", textDecoration: "none", transition: "color 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.color = "var(--text-primary)"} onMouseLeave={(e) => e.currentTarget.style.color = "var(--accent-cyan)"}>Sobre o Projeto</a>
         </div>
       </div>
     </div>
