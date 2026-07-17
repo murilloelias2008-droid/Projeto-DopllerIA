@@ -166,6 +166,10 @@ export default function DashboardPage() {
             </div>
           )}
 
+          <a href="/sobre" className="btn-secondary" style={{ textDecoration: 'none', padding: '8px 16px' }}>
+            Sobre
+          </a>
+
           <button onClick={handleLogout} className="btn-secondary" style={styles.logoutBtn}>
             Sair
           </button>
